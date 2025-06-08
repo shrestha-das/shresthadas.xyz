@@ -1,7 +1,7 @@
 :root {
-  --bg-color: #ffffff;
-  --text-color: #111111;
-  --accent-color: #111111;
+  --bg-color: #111111;
+  --text-color: #ffffff;
+  --accent-color: #ffffff;
 }
 
 body {
@@ -18,17 +18,17 @@ button#mode-toggle {
   background: none;
   border: 1px solid var(--text-color);
   color: var(--text-color);
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
   cursor: pointer;
   font-family: inherit;
   margin-bottom: 1rem;
-  margin-left: 25rem;
+  border-radius: 12px;
 }
 
-.dark-mode {
-  --bg-color: #111111;
-  --text-color: #ffffff;
-  --accent-color: #ffffff;
+.light-mode {
+  --bg-color: #ffffff;
+  --text-color: #111111;
+  --accent-color: #111111;
 }
 
 
@@ -107,9 +107,6 @@ p {
   line-height: 1.6;
 }
 
-em {
-    text-decoration: underline;
-}
 
 #projects {
   line-height: 5rem;
@@ -117,9 +114,14 @@ em {
   font-weight: bolder;
   margin-right: 2.5rem;
   margin-left: 2.5rem;
-
 }
 
 footer{
     text-align: center;
 }
+
+a {
+  color: var(--text-color);
+}
+
+
